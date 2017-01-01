@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/09/27 09:19:36.000.424,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/09/27 13:23:17.000.634,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/13 14:05:37.000.031,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/11/16 12:07:21.000.248,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/11/18 10:13:37.000.196,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/11/18 17:18:02.000.346,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/11/18 17:43:32.000.450,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/11/18 17:44:09.000.738,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/11/18 17:44:30.000.192,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/11/18 17:45:06.000.175,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/11/18 17:45:50.000.771,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/11/23 11:44:38.000.406,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/12/06 09:59:43.000.201,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/12/06 10:20:06.000.766,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/12/12 12:16:54.000.148,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/12/12 12:17:13.000.636,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/12/12 17:40:31.000.700,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/12/27 17:35:07.000.453,=C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/12/27 17:35:32.000.372,C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Projetos\Orientação a Eventos\View.Principal.pas</Transaction>
+    <Transaction>2016/12/27 17:35:32.000.372,C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Projetos\Orientação a Eventos\View.Principal.dfm</Transaction>
+    <Transaction>2016/12/27 17:35:41.000.171,C:\Users\Milersoft\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Projetos\Orientação a Eventos\OrientacaoEventos.dproj</Transaction>
+    <Transaction>2016/12/27 17:36:25.000.996,=C:\Projetos\Orientação a Eventos\Unit1.pas</Transaction>
+    <Transaction>2016/12/27 17:36:40.000.916,C:\Projetos\Orientação a Eventos\Unit1.pas=C:\Projetos\Orientação a Eventos\Controller.Principal.pas</Transaction>
+  </Transactions>
+</BorlandProject>
