@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/07/23 19:04:22.000.381,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/23 19:07:15.000.288,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/07/23 19:13:53.000.477,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/08 20:00:23.000.353,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/10 22:13:26.000.807,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/08/12 22:41:51.000.768,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/29 09:36:25.000.406,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/10/29 09:39:22.000.067,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/15 12:21:32.000.746,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/27 18:41:33.000.460,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/12/06 10:27:12.000.595,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/01/21 17:23:22.000.502,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/01/26 16:57:58.000.416,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/01/31 21:11:29.447,=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/01/31 21:21:19.736,C:\Users\Thulio\Documents\GitHub\DelphiTips\FDBathMove\Unit3.dfm=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2017/01/31 21:21:19.736,C:\Users\Thulio\Documents\GitHub\DelphiTips\FDBathMove\Unit3.pas=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/01/31 21:21:22.726,C:\Users\Thulio\Documents\GitHub\DelphiTips\FDBathMove\Project1.dproj=C:\Users\Thulio\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="DelphiMobile"/>
+	</ActiveMobileDevice>
+</BorlandProject>
