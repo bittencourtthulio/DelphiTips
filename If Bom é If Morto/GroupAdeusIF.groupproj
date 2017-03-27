@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D2070163-FF05-49B9-ABCA-93B1624BFB1A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="RecordHelper.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TesteCondicional.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Heranca_Abstract.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumCase.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Animais.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="RecordHelper">
+        <MSBuild Projects="RecordHelper.dproj"/>
+    </Target>
+    <Target Name="RecordHelper:Clean">
+        <MSBuild Projects="RecordHelper.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RecordHelper:Make">
+        <MSBuild Projects="RecordHelper.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TesteCondicional">
+        <MSBuild Projects="TesteCondicional.dproj"/>
+    </Target>
+    <Target Name="TesteCondicional:Clean">
+        <MSBuild Projects="TesteCondicional.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TesteCondicional:Make">
+        <MSBuild Projects="TesteCondicional.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Heranca_Abstract">
+        <MSBuild Projects="Heranca_Abstract.dproj"/>
+    </Target>
+    <Target Name="Heranca_Abstract:Clean">
+        <MSBuild Projects="Heranca_Abstract.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Heranca_Abstract:Make">
+        <MSBuild Projects="Heranca_Abstract.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumCase">
+        <MSBuild Projects="EnumCase.dproj"/>
+    </Target>
+    <Target Name="EnumCase:Clean">
+        <MSBuild Projects="EnumCase.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumCase:Make">
+        <MSBuild Projects="EnumCase.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Animais">
+        <MSBuild Projects="Animais.dproj"/>
+    </Target>
+    <Target Name="Animais:Clean">
+        <MSBuild Projects="Animais.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Animais:Make">
+        <MSBuild Projects="Animais.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="RecordHelper;TesteCondicional;Heranca_Abstract;EnumCase;Animais"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="RecordHelper:Clean;TesteCondicional:Clean;Heranca_Abstract:Clean;EnumCase:Clean;Animais:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="RecordHelper:Make;TesteCondicional:Make;Heranca_Abstract:Make;EnumCase:Make;Animais:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

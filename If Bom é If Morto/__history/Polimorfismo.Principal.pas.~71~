@@ -1,0 +1,120 @@
+unit Polimorfismo.Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+    TFuncionario = class
+       FNome : String;
+       FComissao : Double;
+       function salario : Currency; virtual; abstract;
+  end;
+
+  TSupervisor = class(TFuncionario)
+    constructor Create(Nome : String; Comissao : Double);
+    function salario : Currency; override;
+  end;
+
+  TGerente = class(TFuncionario)
+    constructor Create(Nome : String; Comissao : Double);
+    function salario : Currency; override;
+  end;
+
+  TVendedor = class(TFuncionario)
+    constructor Create(Nome : String; Comissao : Double);
+    function salario : Currency; override;
+  end;
+
+  TForm6 = class(TForm)
+    Button3: TButton;
+    Button4: TButton;
+    Edit1: TEdit;
+    ComboBox1: TComboBox;
+    Button1: TButton;
+    procedure FormCreate(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+  private
+    { Private declarations }
+    function CalculaSalario(Comissao : Double) : Currency;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm6.Button3Click(Sender: TObject);
+begin
+  if ComboBox1.Text = 'Gerente' then
+    ShowMessage(CurrToStr(CalculaSalario(10)))
+  else if ComboBox1.Text = 'Vendedor' then
+    ShowMessage(CurrToStr(CalculaSalario(5)))
+  else if ComboBox1.Text = 'Supervisor' then
+    ShowMessage(CurrToStr(CalculaSalario(25)));
+end;
+
+procedure TForm6.Button4Click(Sender: TObject);
+begin
+  ShowMessage(CurrToStr(TFuncionario(Combobox1.Items.Objects[ComboBox1.ItemIndex]).salario));
+end;
+
+function TForm6.CalculaSalario(Comissao: Double): Currency;
+begin
+  Result := 1000 + ( 1000 * (Comissao / 100));
+end;
+
+procedure TForm6.FormCreate(Sender: TObject);
+begin
+  ComboBox1.Items.AddObject('Gerente', TObject(TGerente.Create('Fulano', 10)));
+  ComboBox1.Items.AddObject('Vendedor', TObject(TVendedor.Create('Siclano', 5)));
+  ComboBox1.Items.AddObject('Supervisor', TObject(TSupervisor.Create('Dorival', 25)));
+end;
+
+{ TGerente }
+
+constructor TGerente.Create(Nome: String; Comissao: Double);
+begin
+  FNome := Nome;
+  FComissao := Comissao;
+end;
+
+function TGerente.salario: Currency;
+begin
+  Result := 1000 + ( 1000 * (FComissao / 100));
+end;
+
+{ TVendedor }
+
+constructor TVendedor.Create(Nome: String; Comissao: Double);
+begin
+  FNome := Nome;
+  FComissao := Comissao;
+end;
+
+function TVendedor.salario: Currency;
+begin
+  Result := 1000 + ( 1000 * (FComissao / 100));
+end;
+
+{ TSupervisor }
+
+constructor TSupervisor.Create(Nome: String; Comissao: Double);
+begin
+  FNome := Nome;
+  FComissao := Comissao;
+end;
+
+function TSupervisor.salario: Currency;
+begin
+  Result := 1000 + ( 1000 * (FComissao / 100));
+end;
+
+end.
