@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/10/17 09:55:42.965,=rtl.dcp</Transaction>
+    <Transaction>2017/10/17 09:55:51.799,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\FMXForms.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2017/10/17 09:56:02.476,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2017/10/17 09:56:37.190,C:\Users\thuli\Desktop\DelphiTips_VCLFMX\FMXFormCadastro.fmx=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit4.fmx</Transaction>
+    <Transaction>2017/10/17 09:56:37.190,C:\Users\thuli\Desktop\DelphiTips_VCLFMX\FMXFormCadastro.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2017/10/17 09:56:41.146,C:\Users\thuli\Desktop\DelphiTips_VCLFMX\FMXForms.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\FMXForms.dproj</Transaction>
+    <Transaction>2017/10/17 09:58:42.353,=fmx.dcp</Transaction>
+    <Transaction>2017/10/17 09:58:42.358,=dbrtl.dcp</Transaction>
+    <Transaction>2017/10/17 09:58:42.362,=bindengine.dcp</Transaction>
+    <Transaction>2017/10/17 09:58:42.366,=bindcomp.dcp</Transaction>
+    <Transaction>2017/10/17 09:58:42.369,=bindcompfmx.dcp</Transaction>
+    <Transaction>2017/10/17 09:58:42.374,=FireDAC.dcp</Transaction>
+    <Transaction>2017/10/17 09:58:42.378,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2017/10/17 09:58:42.383,=FireDACCommon.dcp</Transaction>
+    <Transaction>2017/10/17 09:58:42.386,=FireDACIBDriver.dcp</Transaction>
+    <Transaction>2017/10/17 09:58:42.389,=fmxFireDAC.dcp</Transaction>
+  </Transactions>
+</BorlandProject>
