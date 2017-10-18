@@ -1,0 +1,27 @@
+unit Exception;
+
+interface
+
+type
+  TException = class
+    private
+    public
+      constructor Create;
+      procedure TrataException(Sender : TObject; E : Exception);
+  end;
+
+implementation
+
+{ TException }
+
+constructor TException.Create;
+begin
+
+end;
+
+procedure TException.TrataException(Sender: TObject; E: Exception);
+begin
+
+end;
+
+end.

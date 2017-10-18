@@ -1,0 +1,32 @@
+unit Exception;
+
+interface
+
+type
+  TException = class
+    private
+      FLogFile : String;
+    public
+      constructor Create;
+      procedure TrataException(Sender : TObject; E : Exception);
+  end;
+
+implementation
+
+uses
+  System.SysUtils, Forms;
+
+{ TException }
+
+constructor TException.Create;
+begin
+  FLogFile := ChangeFileExt(ParamStr(0), '.log');
+  Application.OnException := TrataException;
+end;
+
+procedure TException.TrataException(Sender: TObject; E: Exception);
+begin
+
+end;
+
+end.
