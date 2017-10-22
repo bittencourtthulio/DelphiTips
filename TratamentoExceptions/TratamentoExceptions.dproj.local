@@ -26,12 +26,12 @@
     <Transaction>2017/09/21 18:56:20.000.058,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2017/10/13 11:16:31.000.148,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
     <Transaction>2017/10/17 11:32:11.000.674,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
-    <Transaction>2017/10/18 14:49:16.310,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
-    <Transaction>2017/10/18 14:49:39.561,C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Unit3.dfm=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
-    <Transaction>2017/10/18 14:49:39.561,C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Unit3.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
-    <Transaction>2017/10/18 14:49:41.697,C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\TratamentoExceptions.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2017/10/18 14:50:07.422,=C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Unit1.pas</Transaction>
-    <Transaction>2017/10/18 14:50:36.423,C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Exception.pas=C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Unit1.pas</Transaction>
-    <Transaction>2017/10/18 15:05:35.299,C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\TrataException.pas=C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Exception.pas</Transaction>
+    <Transaction>2017/10/18 14:49:16.000.310,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2017/10/18 14:49:39.000.561,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Unit3.dfm</Transaction>
+    <Transaction>2017/10/18 14:49:39.000.561,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Unit3.pas</Transaction>
+    <Transaction>2017/10/18 14:49:41.000.697,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\TratamentoExceptions.dproj</Transaction>
+    <Transaction>2017/10/18 14:50:07.000.422,=C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Unit1.pas</Transaction>
+    <Transaction>2017/10/18 14:50:36.000.423,C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Unit1.pas=C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Exception.pas</Transaction>
+    <Transaction>2017/10/18 15:05:35.000.299,C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\Exception.pas=C:\Users\thuli\Documents\GitHub\DelphiTips\TratamentoExceptions\TrataException.pas</Transaction>
   </Transactions>
 </BorlandProject>

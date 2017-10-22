@@ -28,7 +28,15 @@ procedure TForm3.Button1Click(Sender: TObject);
 var
   I : integer;
 begin
-  I := StrToInt('dsadas');
+  try
+    I := StrToInt('dsadas');
+  except on E : Exception do
+  begin
+    ShowMessage('Exception do Form ' + E.Message);
+  end;
+
+  end;
+
 
 end;
 
